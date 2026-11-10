@@ -200,6 +200,7 @@ fn about(app: &mut SolveApp, ctx: &egui::Context) {
                 solidcraft_ui_text::tr_label("Open-source parametric 3D CAD in Rust. Licensed MIT OR Apache-2.0."),
                 ui_kit::Text::Note("description"),
             );
+            ui_kit::text(ui, solidcraft_ui_text::tr("help.based_on"), ui_kit::Text::Note("based_on"));
             let copy = ui_kit::button(ui, solidcraft_ui_text::tr_label("Copy diagnostic information"), ui_kit::Button::Normal);
             crate::scenario::publish_target("about:copy_diagnostics", copy.rect);
             if copy.clicked() {

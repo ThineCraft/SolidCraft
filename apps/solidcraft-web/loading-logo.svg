@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-labelledby="t">
+  <title id="t">Loading</title>
+  <rect x="30" y="30" width="60" height="60" rx="6" fill="none" stroke="#4a5060" stroke-width="6">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

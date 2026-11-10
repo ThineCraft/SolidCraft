@@ -33,3 +33,11 @@ Inventor, Alias and Tinkercad are trademarks of Autodesk, Inc.; SolidWorks is a 
 Dassault Systèmes; Onshape and Creo are trademarks of PTC; Blender is a trademark of the Blender
 Foundation. Product names appear only to describe compatibility, such as the mouse navigation
 presets in Preferences › Navigation and file formats from public specifications.
+
+Changes made for ShareCraft
+
+This is a modified version of SolidCraft maintained by ThineCraft at https://github.com/ThineCraft/SolidCraft. It is not the original and is not endorsed by Tangency Labs. 2026-11-10
+apps/solidcraft-web/index.html: the service worker is not registered when the page is opened with an embed query parameter. 2026-11-10
+apps/solidcraft-web/index.html: removed the social-preview (og: and twitter:) tags that pointed at the upstream site. 2026-11-10
+apps/solidcraft-web/loading-logo.svg: added a plain neutral loading shape, used instead of the SolidCraft mark animation. 2026-11-10
+crates/ui-egui/src/help.rs: About says the app is based on SolidCraft by Tangency Labs and is not endorsed by them. 2026-11-10
